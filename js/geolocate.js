@@ -104,9 +104,6 @@ geolocate();
 
 // makeRequest('js/Wundergroundkey.json', getKey);
 
-// Test url
-// http://api.wunderground.com/api/68cb686ffb20da4a/conditions/q/wa/47.6097,-122.3331.json
-
 
 
 // }(); //End IIFE
