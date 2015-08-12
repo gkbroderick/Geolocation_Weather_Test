@@ -23,7 +23,7 @@ gulp.task('templates', function(){
     .pipe(jade({
       pretty: true
     }))
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./'))
 });
 
 

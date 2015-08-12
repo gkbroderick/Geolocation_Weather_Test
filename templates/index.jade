@@ -1,5 +1,13 @@
+doctype html
 html
-  head
-    title
+  include ./includes/head.jade
   body
-    p
+    main.main-wrapper
+      h1 The Weather
+      div
+        code#output
+          | This is where we should get output
+          //Example of piping with the `|`
+
+
+    script(src="js/geolocate.js")
